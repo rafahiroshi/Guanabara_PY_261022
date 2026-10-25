@@ -13,7 +13,7 @@ if y > 180:
 print('O ângulo ajustado é: {}'.format(y))
 
 pi = 3.141592653589793
-# Convertendo o ângulo para radianos
+# Convertendo o ângulo para radianos com o ângulo já reduzido
 radianoReduzido = (y * pi) / 180
 
 # Utilizando 15 termos da série de Taylor para calcular o seno do ângulo em radianos
