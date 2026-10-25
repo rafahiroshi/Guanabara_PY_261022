@@ -1,6 +1,7 @@
 # Utilizando a série de Taylor para calcular o seno, cosseno e tangente de um ângulo em graus com redução de ângulo para o intervalo [-180, 180]
 
 x = float(input('Digite um ângulo para calcular o seno, cosseno e tangente: '))
+print('O ângulo escolhido foi: {}'.format(x))
 
 # Reduzindo o ângulo para o intervalo [-180, 180]
 if x < -180 or x > 180:
@@ -10,7 +11,7 @@ else:
 
 if y > 180:
     y = y - 360
-print('O ângulo ajustado é: {}'.format(y))
+# print('O ângulo ajustado é: {}'.format(y))
 
 pi = 3.141592653589793
 # Convertendo o ângulo para radianos com o ângulo já reduzido
