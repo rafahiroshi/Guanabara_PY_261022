@@ -46,7 +46,11 @@ Este repositório é baseado nas aulas gratuitas do **Curso em Vídeo**.
 
 ## 🚀 Progresso
 
-📖 **Status:** Em desenvolvimento — estudando e praticando continuamente.
+📖 **Status:** Em desenvolvimento
+
+### 📅 Histórico de estudos
+
+- **2026/10/25** — Criação e organização do repositório.
 
 Este repositório será atualizado conforme novos exercícios e desafios forem concluídos.
 
