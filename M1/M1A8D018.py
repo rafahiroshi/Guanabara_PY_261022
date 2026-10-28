@@ -1,4 +1,12 @@
 # Utilizando a série de Taylor para calcular o seno, cosseno e tangente de um ângulo em graus com redução de ângulo para o intervalo [-180, 180]
+#Entrada e formatação de números com float() e .format().
+#Redução de ângulos utilizando %.
+#Estruturas condicionais com if, else, and e or.
+#Conversão de graus para radianos.
+#Cálculo do seno e cosseno com 15 termos da série de Taylor.
+#Cálculo da tangente a partir do seno e cosseno.
+#Tratamento dos ângulos em que a tangente é indefinida.
+#Sem importar bibliotecas.
 
 x = float(input('Digite um ângulo para calcular o seno, cosseno e tangente: '))
 print('O ângulo escolhido foi: {:.2f}'.format(x))
