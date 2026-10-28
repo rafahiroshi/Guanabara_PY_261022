@@ -25,3 +25,10 @@ print('O seno do ângulo {:.2f} é: {}'.format(x, sen))
 cos = 1 - ((radianoReduzido**2) / (2*1)) + ((radianoReduzido**4) / (4*3*2*1)) - ((radianoReduzido**6) / (6*5*4*3*2*1)) + ((radianoReduzido**8) / (8*7*6*5*4*3*2*1)) - ((radianoReduzido**10) / (10*9*8*7*6*5*4*3*2*1)) + ((radianoReduzido**12) / (12*11*10*9*8*7*6*5*4*3*2*1)) - ((radianoReduzido**14) / (14*13*12*11*10*9*8*7*6*5*4*3*2*1)) + ((radianoReduzido**16) / (16*15*14*13*12*11*10*9*8*7*6*5*4*3*2*1)) - ((radianoReduzido**18) / (18*17*16*15*14*13*12*11*10*9*8*7*6*5*4*3*2*1)) + ((radianoReduzido**20) / (20*19*18*17*16*15*14*13*12*11*10*9*8*7*6*5*4*3*2*1)) - ((radianoReduzido**22) / (22*21*20*19*18*17*16*15*14*13*12*11*10*9*8*7*6*5*4*3*2*1)) + ((radianoReduzido**24) / (24*23*2*22*21*20*19*18*17*16*15*14*13*12*11*10*9*8*7*6*5*4*3*2*1)) - ((radianoReduzido**26) / (26*25*24*23*2*22*21*20*19*18*17*16*15*14*13*12*11*10*9*8*7*6*5*4*3*2*1)) + ((radianoReduzido**28) / (28*27*26*25*24*23*2*22*21*20*19*18*17*16*15*14*13*12*11*10*9*8*7*6*5*4*3*2*1))
 
 print('O cosseno do ângulo {:.2f} é: {}'.format(x, cos))
+
+if y != -90 and y != 90:
+    tang = sen / cos
+
+    print('A Tangente do ângulo {:.2f} é: {}'.format(x, tang))
+else:
+    print('A Tangente do ângulo {:.2f} é indefinida'.format(x))
