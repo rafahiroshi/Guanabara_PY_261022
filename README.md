@@ -52,6 +52,7 @@ Este repositório é baseado nas aulas gratuitas do **Curso em Vídeo**.
 
 - **2026/10/25** — Criação e organização do repositório.
 - **2026/11/11** — Finalização Mundo 1.
+- **2026/11/12** — Iniciei estudos do Mundo 2.
 
 Este repositório será atualizado conforme novos exercícios e desafios forem concluídos.
 
